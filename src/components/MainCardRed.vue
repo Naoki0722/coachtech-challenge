@@ -51,7 +51,7 @@ export default Vue.extend({
   justify-content: center;
 }
 .main-card-sub {
-  width: 250px;
+  width: 100%;
   margin: 0 20px;
   background-color: white;
   border-radius: 20px;
@@ -64,7 +64,7 @@ export default Vue.extend({
 
 .main-card-sub-img img {
   border-radius: 20px;
-  width: 250px;
+  width: 100%;
 }
 
 .main-card-sub-img p {

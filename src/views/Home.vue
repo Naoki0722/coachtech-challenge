@@ -3,7 +3,7 @@
     <Header />
     <FirstView />
     <div class="second-contents">
-      <div>
+      <div class="main">
         <div class="card-area">
           <div class="heading-main">
             <p>New Article</p>
@@ -84,6 +84,10 @@ export default class Home extends Vue {
   justify-content: center;
   margin: 40px 0;
 }
+
+.main {
+  width: 100%;
+}
 .card-area {
   display: flex;
   justify-content: space-around;
@@ -99,6 +103,7 @@ export default class Home extends Vue {
   background-color: rgb(218, 218, 218);
   padding: 30px 0;
   margin-top: 40px;
+  width: 100%;
 }
 
 .card-area-2 {
@@ -113,5 +118,4 @@ export default class Home extends Vue {
   font-weight: bold;
   display: inline;
 }
-
 </style>

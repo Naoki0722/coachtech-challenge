@@ -28,8 +28,8 @@ export default Vue.extend({
 
 <style scoped>
 .main-card-sub {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+  /* height: 400px; */
   margin: 0 40px 0 0 ;
   box-shadow: 0 5px 3px #ccc;
 }
@@ -39,7 +39,7 @@ export default Vue.extend({
 }
 
 .main-card-sub-img img {
-  width: 300px;
+  width: 100%;
 }
 
 .main-card-sub-img p {
