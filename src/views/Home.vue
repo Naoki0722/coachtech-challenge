@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="card-area-2">
-            <div class="heading-main2">
+            <div class="heading-main3">
               <p>Design</p>
             </div>
             <MainCardRed />
@@ -44,12 +44,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import Header from '../components/Header.vue';
 import MainCard from '../components/MainCard.vue';
 import MainCardSub from '../components/MainCardSub.vue';
-import HeadingArea from '../components/HeadingArea.vue';
-import HeadingAreaSub from '../components/HeadingAreaSub.vue';
-import BottonTag from '../components/BottonTag.vue';
 import MainCardRed from '../components/MainCardRed.vue';
-import ProfCard from '../components/ProfCard.vue';
-import Table from '../components/Table.vue';
 import FirstView from '../components/FirstView.vue';
 import Footer from '../components/Footer.vue';
 import SubContents from '../components/SubContents.vue';
@@ -60,12 +55,7 @@ import SubContents from '../components/SubContents.vue';
     Header,
     MainCard,
     MainCardSub,
-    HeadingArea,
-    HeadingAreaSub,
-    BottonTag,
     MainCardRed,
-    ProfCard,
-    Table,
     FirstView,
     Footer,
     SubContents
@@ -97,6 +87,7 @@ export default class Home extends Vue {
   writing-mode: vertical-rl;
   font-size: 2.5rem;
   font-weight: bold;
+  margin-left: 40px;
 }
 
 .third-contents {
@@ -107,15 +98,29 @@ export default class Home extends Vue {
 }
 
 .card-area-2 {
-  display: flex;
+  position: relative;
+  /* display: flex; */
   /* justify-content: center; */
   margin-top: 50px;
+  width: 90%;
+  margin: 50px auto 0;
 }
 
-.heading-main2 {
+.heading-main3 {
+  position: absolute;
+  top: 0;
+  left: -2%;
   writing-mode: vertical-rl;
   font-size: 2.5rem;
   font-weight: bold;
-  display: inline;
+}
+
+.heading-main2 {
+  position: absolute;
+  top: 0;
+  right: -3%;
+  writing-mode: vertical-rl;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 </style>

@@ -115,10 +115,8 @@ nav {
 }
 
 .font-awesome {
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    width: 15vw;
+  position: relative;
+  width: 15vw;
 }
 
 
