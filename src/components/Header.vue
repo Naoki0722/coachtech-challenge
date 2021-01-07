@@ -25,7 +25,10 @@
         </div>
       </nav>
       <div class="side-menu">
-        <input type="text" class="font-awesome" :placeholder="icon">
+        <div class="search">
+          <font-awesome-icon icon="search" />
+          <input type="text" class="input-search" placeholder="キーワードを検索してください">
+        </div>
         <div class="side-menu-button">
           <span></span>
           <span></span>
@@ -44,7 +47,6 @@ import { Component, Vue } from 'vue-property-decorator';
 
 @Component
 export default class Home extends Vue {
-  icon = '🔍キーワードを検索してください';
 }
 </script>
 
@@ -132,7 +134,17 @@ nav {
   display: block;
   width: 45px;
   height: 45px;
-  border-radius: 50%;
-  
+  border-radius: 50%; 
+}
+
+.search {
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.input-search {
+  border: none;
+  width: 200px;
 }
 </style>
