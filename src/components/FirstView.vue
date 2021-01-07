@@ -1,7 +1,7 @@
 <template>
   <div class="first-view">
     <div class="main-area">
-      <img src="../assets/firstview.jpg">
+      <img src="../assets/bridal_1.jpg" alt="ファーストビュー画像">
       <div class="main-contents">
         <h2>記事タイトルが入ります。記事タイトルが入ります。</h2>
         <div class="tag-area">
@@ -13,7 +13,7 @@
     <div class="sub">
       <div class="sub-area">
         <div class="filter">
-          <img src="../assets/bridal_4.jpg" class="filter-img">
+          <img src="../assets/bridal_4.jpg" class="filter-img" alt="ファーストビュー２枚目">
         </div>
         <div class="sub-contents">
           <h2>記事タイトルが入ります。記事タイトルが入ります。</h2>
@@ -25,7 +25,7 @@
       </div>
       <div class="sub-area">
         <div class="filter">
-          <img src="../assets/bridal_5.jpeg" class="filter-img">
+          <img src="../assets/bridal_5.jpeg" class="filter-img" alt="ファーストビュー3枚目">
         </div>
         <div class="sub-contents">
           <h2>記事タイトルが入ります。記事タイトルが入ります。</h2>
@@ -37,7 +37,7 @@
       </div>
       <div class="sub-area">
         <div class="filter">
-          <img src="../assets/bridal_6.jpg" class="filter-img">
+          <img src="../assets/bridal_6.jpg" class="filter-img" alt="ファーストビュー4枚目">
         </div>
         <div class="sub-contents">
           <h2>記事タイトルが入ります。記事タイトルが入ります。</h2>

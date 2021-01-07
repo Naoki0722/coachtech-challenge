@@ -6,7 +6,7 @@
       <div class="main">
         <h1>ここにサンプルタイトルh1が入ります。ここにサンプルタイトルh1が入ります</h1>
         <div class="main-card-img">
-          <img src="../assets/bridal_6.jpg">
+          <img src="../assets/bridal_6.jpg" alt="アイキャッチ画像">
           <div>
             <p>カテゴリー</p>
           </div>

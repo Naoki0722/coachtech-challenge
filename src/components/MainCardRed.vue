@@ -2,7 +2,7 @@
   <div class="card-section">
     <div class="main-card-sub">
       <div class="main-card-sub-img">
-        <img src="../assets/3014.jpg">
+        <img src="../assets/bridal_3.jpg" alt="メインカード画像-1">
       </div>
       <div class="main-card-sub-text">
         <h2>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h2>
@@ -13,7 +13,7 @@
     </div>
     <div class="main-card-sub">
       <div class="main-card-sub-img">
-        <img src="../assets/3014.jpg">
+        <img src="../assets/3014.jpg" alt="メインカード画像-1">
       </div>
       <div class="main-card-sub-text">
         <h2>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h2>
@@ -24,7 +24,7 @@
     </div>
     <div class="main-card-sub">
       <div class="main-card-sub-img">
-        <img src="../assets/3014.jpg">
+        <img src="../assets/maincard3.jpg" alt="メインカード画像-1">
       </div>
       <div class="main-card-sub-text">
         <h2>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h2>

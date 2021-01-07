@@ -1,7 +1,7 @@
 <template>
   <div class="main-card-sub">
     <div class="main-card-sub-img">
-      <img src="../assets/3014.jpg">
+      <img src="../assets/bridal_2.jpg" alt="カードメイン画像">
       <div>
         <p>カテゴリー</p>
       </div>
